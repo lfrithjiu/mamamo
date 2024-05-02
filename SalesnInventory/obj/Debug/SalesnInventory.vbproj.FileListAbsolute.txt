@@ -1,0 +1,166 @@
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.AssemblyReference.cache
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.SuggestedBindingRedirects.cache
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addgroup.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addgroup1.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addgroup2.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Dashboard.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Form1.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Inventory.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Admin.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Cashier.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Manager.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Login.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Resources.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Users.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.GenerateResource.cache
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.exe.config
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.exe
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.pdb
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.xml
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\bin\Debug\Guna.UI2.dll
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addProduct.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.CopyComplete
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.exe
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.xml
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.pdb
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.updateProduct.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addStocks.resources
+C:\Users\user\Documents\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.updateStocks.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.exe.config
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.exe.manifest
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.application
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.exe
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.pdb
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.xml
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\bin\Debug\Guna.UI2.dll
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.AssemblyReference.cache
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.SuggestedBindingRedirects.cache
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addOrder.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addQuantity.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.cashMethod.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.lendMethod.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.paymentMethod.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Bills.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Dashboard.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Form1.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Inventory.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Admin.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Cashier.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Manager.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Login.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Resources.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addProduct.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.updateProduct.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addCar.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addCompany.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addStocks.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.updateStocks.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addUser.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.seeUsers.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Users.resources
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.GenerateResource.cache
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.CoreCompileInputs.cache
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.exe.manifest
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.application
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.CopyComplete
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.exe
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.xml
+C:\Users\ricop\OneDrive\Desktop\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.pdb
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.AssemblyReference.cache
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addOrder.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addQuantity.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.cashMethod.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.lendMethod.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.paymentMethod.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Bills.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Dashboard.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Form1.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Inventory.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Admin.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Cashier.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Manager.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Login.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Resources.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addProduct.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.updateProduct.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addCar.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addCompany.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addStocks.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.updateStocks.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.addUser.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.seeUsers.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.Users.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.GenerateResource.cache
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.CoreCompileInputs.cache
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.exe
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.xml
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.pdb
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.exe.config
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.exe.manifest
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.application
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.exe
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.pdb
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\SalesnInventory.xml
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Guna.UI.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Guna.UI2.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\EnvDTE.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\stdole.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\Microsoft.MSXML.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.exe.manifest
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.application
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\obj\Debug\SalesnInventory.vbproj.CopyComplete
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\x86\SqlServerSpatial160.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\x64\SqlServerSpatial160.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\Project\SalesnInventory\SalesnInventory\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
