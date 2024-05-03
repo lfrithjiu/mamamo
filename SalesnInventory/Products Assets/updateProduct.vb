@@ -1,5 +1,4 @@
 ﻿Imports System.Data.SqlClient
-Imports TheArtOfDevHtmlRenderer
 
 Public Class updateProduct
     Dim prodID As Integer

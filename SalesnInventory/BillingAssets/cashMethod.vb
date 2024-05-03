@@ -1,18 +1,23 @@
-﻿Imports System.Data.Common
-
-Public Class cashMethod
+﻿Public Class cashMethod
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
         Me.Close()
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
         If (moneyTextBox.Text.Trim >= Bills.transacTotal) Then
+
+            'MessageBox.Show("Total " & Bills.transacTotal & " Money: " & moneyTextBox.Text.Trim, "Test")
+
+            'Return
             Dim con As New SqlClient.SqlConnection
             Dim command As SqlClient.SqlCommand
             Dim da As SqlClient.SqlDataAdapter
             Dim dt As DataTable
             Dim query As String = ""
             Dim change As Decimal = Convert.ToDouble(moneyTextBox.Text.Trim) - Convert.ToDouble(Bills.transacTotal)
+            Dim now As DateTime = DateTime.Now()
+            Dim formattedTime As String = now.ToString("MM/dd/yyyy hh:mm:ss tt")
+
 
             Try
                 con.ConnectionString = connection.getConnectionString()
@@ -23,7 +28,8 @@ Public Class cashMethod
                             transaction_total = " & Bills.transacTotal & ", 
                             transaction_money = " & moneyTextBox.Text.Trim & ", 
                             transaction_change = " & change & ", 
-                            transaction_status = 1
+                            transaction_status = 1,
+                            transaction_date = " & formattedTime & "
                         WHERE 
                             transaction_status = 0;"
                 command = New SqlClient.SqlCommand(query, con)

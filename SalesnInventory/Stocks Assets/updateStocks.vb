@@ -1,5 +1,4 @@
 ﻿Imports System.Data.SqlClient
-Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class updateStocks
     Dim con1 As SqlClient.SqlConnection

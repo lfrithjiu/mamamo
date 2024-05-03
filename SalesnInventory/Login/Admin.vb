@@ -1,6 +1,4 @@
-﻿Imports Microsoft.VisualBasic.ApplicationServices
-
-Public Class Admin
+﻿Public Class Admin
     Protected Overrides ReadOnly Property CreateParams() As CreateParams
         'this is magic code that has an enormous positive effect on reducing flickering.
         'don't remove this.

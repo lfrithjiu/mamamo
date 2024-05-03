@@ -1,6 +1,4 @@
-﻿Imports System.Runtime.InteropServices
-
-Public Class Users
+﻿Public Class Users
     Private Property userID As Integer = Nothing
 
     Public Sub setUserID(ByVal id As Integer)
@@ -9,6 +7,22 @@ Public Class Users
         ' Display the information
         displayInfo()
     End Sub
+    Function GetAge(birthDate As DateTime) As Integer
+        ' Get today's date
+        Dim today As DateTime = DateTime.Now
+
+        ' Calculate the difference in years, handling negative values (birth date in the future)
+        Dim age As Integer = DateDiff(DateInterval.Year, birthDate, today)
+
+        ' Check if birthday hasn't happened this year yet (current month and day before today's)
+        If birthDate.Month > today.Month OrElse (birthDate.Month = today.Month AndAlso birthDate.Day > today.Day) Then
+            ' Subtract 1 from age if birthday hasn't happened this year yet
+            age -= 1
+        End If
+
+        ' Return the calculated age (non-negative)
+        Return Math.Max(age, 0)  ' Ensure age is at least 0
+    End Function
 
     Private Sub displayInfo()
         Dim con As SqlClient.SqlConnection
@@ -25,7 +39,7 @@ Public Class Users
             query = "SELECT 
 	                    first_name,
 	                    last_name,
-	                    age,
+	                    birthdate,
 	                    contact_number,
 	                    social_security_number,
 	                    address,
@@ -48,7 +62,7 @@ Public Class Users
 
             tb_fname.Text = dt.Rows(0).Item(0)
             tb_lname.Text = dt.Rows(0).Item(1)
-            tb_age.Text = dt.Rows(0).Item(2)
+            tb_age.Text = GetAge(dt.Rows(0).Item(2))
             tb_contactnum.Text = dt.Rows(0).Item(3)
             tb_securitynum.Text = dt.Rows(0).Item(4)
             tb_address.Text = dt.Rows(0).Item(5)
@@ -64,27 +78,6 @@ Public Class Users
 
     Private Sub Users_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
-
-    Private Sub tb_age_KeyPress(sender As Object, e As KeyPressEventArgs)
-        If tb_age.Text.Trim.Length = 0 AndAlso e.KeyChar = "0" Then
-            e.Handled = True
-        ElseIf tb_age.Text.Trim.Length >= 4 Then
-            If (Asc(e.KeyChar) = 8) Then
-                e.Handled = False
-            Else
-                e.Handled = True
-            End If
-        Else
-            If ((Asc(e.KeyChar) >= 48 AndAlso Asc(e.KeyChar) <= 57) Or
-                (Asc(e.KeyChar) = 8)) Then
-
-                ' MessageBox.Show("Valid")
-            Else
-                ' MessageBox.Show("Not Valid")
-                e.Handled = True
-            End If
-        End If
     End Sub
 
     Private Sub tb_contactnum_KeyPress(sender As Object, e As KeyPressEventArgs)
@@ -286,9 +279,5 @@ Public Class Users
     Private Sub btn_records_Click_1(sender As Object, e As EventArgs) Handles btn_records.Click
         seeUsers.loadUsers()
         seeUsers.ShowDialog()
-    End Sub
-
-    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
-
     End Sub
 End Class

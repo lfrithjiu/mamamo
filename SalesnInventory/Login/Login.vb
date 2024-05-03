@@ -1,6 +1,4 @@
-﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Status
-
-Public Class Login
+﻿Public Class Login
 
     Protected Overrides ReadOnly Property CreateParams() As CreateParams
         'this is magic code that has an enormous positive effect on reducing flickering.
