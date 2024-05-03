@@ -834,14 +834,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SalesnInventory.exe" size="69218304">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SalesnInventory.exe" size="69215744">
       <assemblyIdentity name="SalesnInventory" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6NEZZT6rwg/kcKQMWJdJCavZ1bPCljPhJEoZVC460mg=</dsig:DigestValue>
+        <dsig:DigestValue>3sZzBXPt8mDylCZDN1/ECdwOzsN5dNT/7QrSIU68z7A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

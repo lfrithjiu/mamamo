@@ -57,7 +57,7 @@ Partial Class Bills
         Me.searchProduct.AutoRoundedCorners = True
         Me.searchProduct.BackColor = System.Drawing.Color.Transparent
         Me.searchProduct.BorderColor = System.Drawing.Color.Black
-        Me.searchProduct.BorderRadius = 20
+        Me.searchProduct.BorderRadius = 14
         Me.searchProduct.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.searchProduct.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.searchProduct.DefaultText = ""
@@ -66,29 +66,28 @@ Partial Class Bills
         Me.searchProduct.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.searchProduct.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.searchProduct.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.searchProduct.Font = New System.Drawing.Font("Poppins", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.searchProduct.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.searchProduct.ForeColor = System.Drawing.Color.Black
         Me.searchProduct.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.searchProduct.Location = New System.Drawing.Point(648, 88)
-        Me.searchProduct.Margin = New System.Windows.Forms.Padding(5)
+        Me.searchProduct.Location = New System.Drawing.Point(473, 73)
+        Me.searchProduct.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.searchProduct.Name = "searchProduct"
         Me.searchProduct.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.searchProduct.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.searchProduct.PlaceholderText = "Ex: 6ai42**"
         Me.searchProduct.SelectedText = ""
-        Me.searchProduct.Size = New System.Drawing.Size(385, 43)
+        Me.searchProduct.Size = New System.Drawing.Size(314, 30)
         Me.searchProduct.TabIndex = 7
         Me.ToolTip1.SetToolTip(Me.searchProduct, "Write a product code")
         '
         'Guna2HtmlLabel1
         '
         Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Poppins", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel1.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(438, 94)
-        Me.Guna2HtmlLabel1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(324, 79)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(201, 33)
+        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(142, 19)
         Me.Guna2HtmlLabel1.TabIndex = 6
         Me.Guna2HtmlLabel1.Text = "Search Product Code:"
         '
@@ -107,7 +106,7 @@ Partial Class Bills
         Me.transactionListGrid.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(5, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Poppins", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(5, Byte), Integer))
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
@@ -117,21 +116,20 @@ Partial Class Bills
         Me.transactionListGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Poppins", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
         DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White
         DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.transactionListGrid.DefaultCellStyle = DataGridViewCellStyle3
         Me.transactionListGrid.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.transactionListGrid.Location = New System.Drawing.Point(432, 135)
-        Me.transactionListGrid.Margin = New System.Windows.Forms.Padding(4)
+        Me.transactionListGrid.Location = New System.Drawing.Point(324, 110)
         Me.transactionListGrid.Name = "transactionListGrid"
         Me.transactionListGrid.ReadOnly = True
         Me.transactionListGrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Poppins", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
         DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White
         DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.Desktop
@@ -140,7 +138,7 @@ Partial Class Bills
         Me.transactionListGrid.RowHeadersVisible = False
         Me.transactionListGrid.RowHeadersWidth = 51
         Me.transactionListGrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
-        Me.transactionListGrid.Size = New System.Drawing.Size(619, 450)
+        Me.transactionListGrid.Size = New System.Drawing.Size(464, 366)
         Me.transactionListGrid.TabIndex = 4
         Me.transactionListGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.transactionListGrid.ThemeStyle.AlternatingRowsStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -188,24 +186,22 @@ Partial Class Bills
         Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
         Me.Guna2Button1.Image = Global.SalesnInventory.My.Resources.Resources.icons8_close_38
-        Me.Guna2Button1.Location = New System.Drawing.Point(1607, 4)
-        Me.Guna2Button1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2Button1.Location = New System.Drawing.Point(1205, 3)
         Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(40, 41)
+        Me.Guna2Button1.Size = New System.Drawing.Size(30, 33)
         Me.Guna2Button1.TabIndex = 98
         '
         'Guna2HtmlLabel4
         '
         Me.Guna2HtmlLabel4.AutoSize = False
         Me.Guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel4.Font = New System.Drawing.Font("Poppins", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel4.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel4.Location = New System.Drawing.Point(16, 15)
-        Me.Guna2HtmlLabel4.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2HtmlLabel4.Location = New System.Drawing.Point(12, 12)
         Me.Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
-        Me.Guna2HtmlLabel4.Size = New System.Drawing.Size(99, 54)
+        Me.Guna2HtmlLabel4.Size = New System.Drawing.Size(279, 44)
         Me.Guna2HtmlLabel4.TabIndex = 100
-        Me.Guna2HtmlLabel4.Text = "Bills"
+        Me.Guna2HtmlLabel4.Text = "Billing And Payment"
         '
         'Guna2CustomGradientPanel1
         '
@@ -219,10 +215,9 @@ Partial Class Bills
         Me.Guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.SandyBrown
         Me.Guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.Gold
         Me.Guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.SandyBrown
-        Me.Guna2CustomGradientPanel1.Location = New System.Drawing.Point(16, 98)
-        Me.Guna2CustomGradientPanel1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2CustomGradientPanel1.Location = New System.Drawing.Point(12, 80)
         Me.Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
-        Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(388, 487)
+        Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(291, 396)
         Me.Guna2CustomGradientPanel1.TabIndex = 102
         '
         'Guna2Panel2
@@ -234,10 +229,9 @@ Partial Class Bills
         Me.Guna2Panel2.Controls.Add(Me.Guna2HtmlLabel3)
         Me.Guna2Panel2.Controls.Add(Me.transacNumberTxtBox)
         Me.Guna2Panel2.Controls.Add(Me.Guna2HtmlLabel2)
-        Me.Guna2Panel2.Location = New System.Drawing.Point(15, 21)
-        Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2Panel2.Location = New System.Drawing.Point(11, 17)
         Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(357, 208)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(268, 169)
         Me.Guna2Panel2.TabIndex = 6
         '
         'totalPrice
@@ -245,7 +239,7 @@ Partial Class Bills
         Me.totalPrice.Animated = True
         Me.totalPrice.AutoRoundedCorners = True
         Me.totalPrice.BorderColor = System.Drawing.Color.Black
-        Me.totalPrice.BorderRadius = 20
+        Me.totalPrice.BorderRadius = 16
         Me.totalPrice.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.totalPrice.DefaultText = "0"
         Me.totalPrice.DisabledState.BorderColor = System.Drawing.Color.White
@@ -254,28 +248,27 @@ Partial Class Bills
         Me.totalPrice.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.totalPrice.Enabled = False
         Me.totalPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.totalPrice.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalPrice.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.totalPrice.ForeColor = System.Drawing.Color.Black
         Me.totalPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.totalPrice.Location = New System.Drawing.Point(28, 138)
-        Me.totalPrice.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.totalPrice.Location = New System.Drawing.Point(21, 112)
+        Me.totalPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.totalPrice.Name = "totalPrice"
         Me.totalPrice.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.totalPrice.PlaceholderText = ""
         Me.totalPrice.SelectedText = ""
-        Me.totalPrice.Size = New System.Drawing.Size(307, 42)
+        Me.totalPrice.Size = New System.Drawing.Size(230, 34)
         Me.totalPrice.TabIndex = 4
         Me.totalPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Guna2HtmlLabel3
         '
         Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Poppins SemiBold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel3.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(28, 105)
-        Me.Guna2HtmlLabel3.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(21, 85)
         Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(116, 38)
+        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(93, 22)
         Me.Guna2HtmlLabel3.TabIndex = 6
         Me.Guna2HtmlLabel3.Text = "Total Price:"
         '
@@ -284,7 +277,7 @@ Partial Class Bills
         Me.transacNumberTxtBox.Animated = True
         Me.transacNumberTxtBox.AutoRoundedCorners = True
         Me.transacNumberTxtBox.BorderColor = System.Drawing.Color.Black
-        Me.transacNumberTxtBox.BorderRadius = 19
+        Me.transacNumberTxtBox.BorderRadius = 15
         Me.transacNumberTxtBox.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.transacNumberTxtBox.DefaultText = "1"
         Me.transacNumberTxtBox.DisabledState.BorderColor = System.Drawing.Color.White
@@ -293,29 +286,28 @@ Partial Class Bills
         Me.transacNumberTxtBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.transacNumberTxtBox.Enabled = False
         Me.transacNumberTxtBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.transacNumberTxtBox.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.transacNumberTxtBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.transacNumberTxtBox.ForeColor = System.Drawing.Color.Black
         Me.transacNumberTxtBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.transacNumberTxtBox.Location = New System.Drawing.Point(28, 53)
-        Me.transacNumberTxtBox.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.transacNumberTxtBox.Location = New System.Drawing.Point(21, 43)
+        Me.transacNumberTxtBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.transacNumberTxtBox.Name = "transacNumberTxtBox"
         Me.transacNumberTxtBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.transacNumberTxtBox.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(210, Byte), Integer))
         Me.transacNumberTxtBox.PlaceholderText = ""
         Me.transacNumberTxtBox.SelectedText = ""
-        Me.transacNumberTxtBox.Size = New System.Drawing.Size(307, 41)
+        Me.transacNumberTxtBox.Size = New System.Drawing.Size(230, 33)
         Me.transacNumberTxtBox.TabIndex = 5
         Me.transacNumberTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Guna2HtmlLabel2
         '
         Me.Guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("Poppins SemiBold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(25, 16)
-        Me.Guna2HtmlLabel2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(19, 13)
         Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(220, 38)
+        Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(169, 22)
         Me.Guna2HtmlLabel2.TabIndex = 4
         Me.Guna2HtmlLabel2.Text = "Transaction Number:"
         '
@@ -324,21 +316,20 @@ Partial Class Bills
         Me.paymentBtn.Animated = True
         Me.paymentBtn.AutoRoundedCorners = True
         Me.paymentBtn.BackColor = System.Drawing.Color.Transparent
-        Me.paymentBtn.BorderRadius = 24
+        Me.paymentBtn.BorderRadius = 19
         Me.paymentBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.paymentBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.paymentBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.paymentBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.paymentBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.paymentBtn.FillColor = System.Drawing.Color.DodgerBlue
-        Me.paymentBtn.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.paymentBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.paymentBtn.ForeColor = System.Drawing.Color.White
         Me.paymentBtn.Image = Global.SalesnInventory.My.Resources.Resources.icons8_pay_40
         Me.paymentBtn.IndicateFocus = True
-        Me.paymentBtn.Location = New System.Drawing.Point(15, 249)
-        Me.paymentBtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.paymentBtn.Location = New System.Drawing.Point(11, 202)
         Me.paymentBtn.Name = "paymentBtn"
-        Me.paymentBtn.Size = New System.Drawing.Size(357, 50)
+        Me.paymentBtn.Size = New System.Drawing.Size(268, 41)
         Me.paymentBtn.TabIndex = 11
         Me.paymentBtn.Text = "  Payment"
         Me.paymentBtn.UseTransparentBackground = True
@@ -354,13 +345,12 @@ Partial Class Bills
         Me.voidBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.voidBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.voidBtn.FillColor = System.Drawing.Color.LightGray
-        Me.voidBtn.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.voidBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.voidBtn.ForeColor = System.Drawing.Color.Black
         Me.voidBtn.Image = Global.SalesnInventory.My.Resources.Resources.icons8_void_40__1_
-        Me.voidBtn.Location = New System.Drawing.Point(15, 412)
-        Me.voidBtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.voidBtn.Location = New System.Drawing.Point(11, 335)
         Me.voidBtn.Name = "voidBtn"
-        Me.voidBtn.Size = New System.Drawing.Size(137, 49)
+        Me.voidBtn.Size = New System.Drawing.Size(103, 40)
         Me.voidBtn.TabIndex = 10
         Me.voidBtn.Text = "Void"
         '
@@ -375,14 +365,13 @@ Partial Class Bills
         Me.addQtyBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.addQtyBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.addQtyBtn.FillColor = System.Drawing.Color.LightGray
-        Me.addQtyBtn.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addQtyBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.addQtyBtn.ForeColor = System.Drawing.Color.Black
         Me.addQtyBtn.Image = Global.SalesnInventory.My.Resources.Resources.icons8_add_40__2_
         Me.addQtyBtn.IndicateFocus = True
-        Me.addQtyBtn.Location = New System.Drawing.Point(15, 326)
-        Me.addQtyBtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.addQtyBtn.Location = New System.Drawing.Point(11, 265)
         Me.addQtyBtn.Name = "addQtyBtn"
-        Me.addQtyBtn.Size = New System.Drawing.Size(140, 49)
+        Me.addQtyBtn.Size = New System.Drawing.Size(105, 40)
         Me.addQtyBtn.TabIndex = 9
         Me.addQtyBtn.Text = "Add QTY"
         Me.addQtyBtn.UseTransparentBackground = True
@@ -398,13 +387,12 @@ Partial Class Bills
         Me.cancelTransacBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.cancelTransacBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.cancelTransacBtn.FillColor = System.Drawing.Color.LightGray
-        Me.cancelTransacBtn.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cancelTransacBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cancelTransacBtn.ForeColor = System.Drawing.Color.Black
         Me.cancelTransacBtn.Image = Global.SalesnInventory.My.Resources.Resources.icons8_cancel_40__2_
-        Me.cancelTransacBtn.Location = New System.Drawing.Point(173, 412)
-        Me.cancelTransacBtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.cancelTransacBtn.Location = New System.Drawing.Point(130, 335)
         Me.cancelTransacBtn.Name = "cancelTransacBtn"
-        Me.cancelTransacBtn.Size = New System.Drawing.Size(199, 49)
+        Me.cancelTransacBtn.Size = New System.Drawing.Size(149, 40)
         Me.cancelTransacBtn.TabIndex = 8
         Me.cancelTransacBtn.Text = "Cancel Transaction"
         '
@@ -419,22 +407,21 @@ Partial Class Bills
         Me.newTransacBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.newTransacBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.newTransacBtn.FillColor = System.Drawing.Color.LightGray
-        Me.newTransacBtn.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.newTransacBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.newTransacBtn.ForeColor = System.Drawing.Color.Black
         Me.newTransacBtn.Image = Global.SalesnInventory.My.Resources.Resources.icons8_add_money_40
-        Me.newTransacBtn.Location = New System.Drawing.Point(173, 326)
-        Me.newTransacBtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.newTransacBtn.Location = New System.Drawing.Point(130, 265)
         Me.newTransacBtn.Name = "newTransacBtn"
-        Me.newTransacBtn.Size = New System.Drawing.Size(199, 49)
+        Me.newTransacBtn.Size = New System.Drawing.Size(149, 40)
         Me.newTransacBtn.TabIndex = 7
         Me.newTransacBtn.Text = "New Transaction"
         '
         'Bills
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1067, 614)
+        Me.ClientSize = New System.Drawing.Size(800, 499)
         Me.Controls.Add(Me.Guna2CustomGradientPanel1)
         Me.Controls.Add(Me.Guna2HtmlLabel4)
         Me.Controls.Add(Me.Guna2Button1)
@@ -444,7 +431,6 @@ Partial Class Bills
         Me.ForeColor = System.Drawing.Color.Black
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Location = New System.Drawing.Point(200, 50)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Bills"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Bills"

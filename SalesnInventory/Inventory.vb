@@ -48,7 +48,7 @@ Public Class Inventory
         filterProduct = "Activated"
         filterStock = "All"
 
-        Dim getAllProducts As String = "SELECT id AS 'ID', product_code AS 'Product Code', product_name AS 'Name', product_description AS 'Description', product_price AS 'Price' FROM products WHERE product_status = 'Activated';"
+        Dim getAllProducts As String = "SELECT id AS 'ID', product_code AS 'Category Code', product_name AS 'Name', product_description AS 'Description', product_price AS 'Price' FROM products WHERE product_status = 'Activated';"
         fillDataGridView(getAllProducts)
         checkStatusButtons()
 
@@ -60,13 +60,13 @@ Public Class Inventory
 
     Private Sub productSearch_KeyUp(sender As Object, e As KeyEventArgs)
         'MessageBox.Show(filterProduct)
-        Dim search As String = "SELECT id AS 'ID', product_code AS 'Product Code', product_name AS 'Name', product_description AS 'Description', product_price AS 'Price' FROM products WHERE (product_name LIKE '" & productSearch.Text.Trim() & "%' OR product_code LIKE '" & productSearch.Text.Trim() & "%') AND product_status = '" & filterProduct & "'"
+        Dim search As String = "SELECT id AS 'ID', product_code AS 'Category Code', product_name AS 'Name', product_description AS 'Description', product_price AS 'Price' FROM products WHERE (product_name LIKE '" & productSearch.Text.Trim() & "%' OR product_code LIKE '" & productSearch.Text.Trim() & "%') AND product_status = '" & filterProduct & "'"
         fillDataGridView(search)
     End Sub
 
     Private Sub productSearch_KeyPress(sender As Object, e As KeyPressEventArgs)
         'MessageBox.Show(filterProduct)
-        Dim search As String = "Select id As 'ID', product_code AS 'Product Code', product_name AS 'Name', product_description AS 'Description', product_price AS 'Price' FROM products WHERE (product_name LIKE '" & productSearch.Text.Trim() & "%' OR product_code LIKE '" & productSearch.Text.Trim() & "%') AND product_status = '" & filterProduct & "'"
+        Dim search As String = "Select id As 'ID', product_code AS 'Category Code', product_name AS 'Name', product_description AS 'Description', product_price AS 'Price' FROM products WHERE (product_name LIKE '" & productSearch.Text.Trim() & "%' OR product_code LIKE '" & productSearch.Text.Trim() & "%') AND product_status = '" & filterProduct & "'"
         fillDataGridView(search)
 
     End Sub
