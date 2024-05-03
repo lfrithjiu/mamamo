@@ -49,8 +49,9 @@ Partial Class Admin
         Me.Guna2Panel1.Controls.Add(Me.Guna2Button1)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Size = New System.Drawing.Size(350, 25)
+        Me.Guna2Panel1.Size = New System.Drawing.Size(467, 31)
         Me.Guna2Panel1.TabIndex = 28
         '
         'Guna2Button1
@@ -63,9 +64,10 @@ Partial Class Admin
         Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
         Me.Guna2Button1.Image = Global.SalesnInventory.My.Resources.Resources.icons8_close_38
-        Me.Guna2Button1.Location = New System.Drawing.Point(319, 0)
+        Me.Guna2Button1.Location = New System.Drawing.Point(425, 0)
+        Me.Guna2Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(28, 22)
+        Me.Guna2Button1.Size = New System.Drawing.Size(37, 27)
         Me.Guna2Button1.TabIndex = 20
         '
         'Guna2Elipse2
@@ -74,14 +76,15 @@ Partial Class Admin
         '
         'Label3
         '
-        Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(47, 128)
+        Me.Label3.Font = New System.Drawing.Font("Poppins", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(0, 158)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(230, 33)
+        Me.Label3.Size = New System.Drawing.Size(470, 61)
         Me.Label3.TabIndex = 27
         Me.Label3.Text = "Login as Admin"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'adminPasswordBox
         '
@@ -89,7 +92,7 @@ Partial Class Admin
         Me.adminPasswordBox.AutoRoundedCorners = True
         Me.adminPasswordBox.BackColor = System.Drawing.Color.Transparent
         Me.adminPasswordBox.BorderColor = System.Drawing.Color.Black
-        Me.adminPasswordBox.BorderRadius = 14
+        Me.adminPasswordBox.BorderRadius = 17
         Me.adminPasswordBox.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.adminPasswordBox.DefaultText = ""
         Me.adminPasswordBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -97,17 +100,17 @@ Partial Class Admin
         Me.adminPasswordBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.adminPasswordBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.adminPasswordBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.adminPasswordBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminPasswordBox.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.adminPasswordBox.ForeColor = System.Drawing.Color.Black
         Me.adminPasswordBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.adminPasswordBox.Location = New System.Drawing.Point(28, 313)
-        Me.adminPasswordBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.adminPasswordBox.Location = New System.Drawing.Point(37, 385)
+        Me.adminPasswordBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.adminPasswordBox.Name = "adminPasswordBox"
         Me.adminPasswordBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.adminPasswordBox.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.adminPasswordBox.PlaceholderText = "*******"
         Me.adminPasswordBox.SelectedText = ""
-        Me.adminPasswordBox.Size = New System.Drawing.Size(292, 30)
+        Me.adminPasswordBox.Size = New System.Drawing.Size(389, 37)
         Me.adminPasswordBox.TabIndex = 26
         '
         'adminUsernameBox
@@ -116,7 +119,7 @@ Partial Class Admin
         Me.adminUsernameBox.AutoRoundedCorners = True
         Me.adminUsernameBox.BackColor = System.Drawing.Color.Transparent
         Me.adminUsernameBox.BorderColor = System.Drawing.Color.Black
-        Me.adminUsernameBox.BorderRadius = 14
+        Me.adminUsernameBox.BorderRadius = 17
         Me.adminUsernameBox.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.adminUsernameBox.DefaultText = ""
         Me.adminUsernameBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -124,17 +127,17 @@ Partial Class Admin
         Me.adminUsernameBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.adminUsernameBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.adminUsernameBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.adminUsernameBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.adminUsernameBox.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.adminUsernameBox.ForeColor = System.Drawing.Color.Black
         Me.adminUsernameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.adminUsernameBox.Location = New System.Drawing.Point(28, 229)
-        Me.adminUsernameBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.adminUsernameBox.Location = New System.Drawing.Point(37, 282)
+        Me.adminUsernameBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.adminUsernameBox.Name = "adminUsernameBox"
         Me.adminUsernameBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.adminUsernameBox.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.adminUsernameBox.PlaceholderText = "Ex: Juan"
         Me.adminUsernameBox.SelectedText = ""
-        Me.adminUsernameBox.Size = New System.Drawing.Size(292, 30)
+        Me.adminUsernameBox.Size = New System.Drawing.Size(389, 37)
         Me.adminUsernameBox.TabIndex = 25
         '
         'Guna2GradientButton1
@@ -143,7 +146,7 @@ Partial Class Admin
         Me.Guna2GradientButton1.AutoRoundedCorners = True
         Me.Guna2GradientButton1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2GradientButton1.BorderColor = System.Drawing.Color.White
-        Me.Guna2GradientButton1.BorderRadius = 21
+        Me.Guna2GradientButton1.BorderRadius = 26
         Me.Guna2GradientButton1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -152,11 +155,12 @@ Partial Class Admin
         Me.Guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2GradientButton1.FillColor = System.Drawing.Color.DodgerBlue
         Me.Guna2GradientButton1.FillColor2 = System.Drawing.Color.DodgerBlue
-        Me.Guna2GradientButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GradientButton1.ForeColor = System.Drawing.Color.Black
-        Me.Guna2GradientButton1.Location = New System.Drawing.Point(96, 392)
+        Me.Guna2GradientButton1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GradientButton1.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton1.Location = New System.Drawing.Point(128, 482)
+        Me.Guna2GradientButton1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2GradientButton1.Name = "Guna2GradientButton1"
-        Me.Guna2GradientButton1.Size = New System.Drawing.Size(148, 45)
+        Me.Guna2GradientButton1.Size = New System.Drawing.Size(197, 55)
         Me.Guna2GradientButton1.TabIndex = 29
         Me.Guna2GradientButton1.Text = "Login"
         Me.Guna2GradientButton1.UseTransparentBackground = True
@@ -165,10 +169,11 @@ Partial Class Admin
         '
         Me.GunaLabel1.AutoSize = True
         Me.GunaLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel1.Location = New System.Drawing.Point(32, 197)
+        Me.GunaLabel1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaLabel1.Location = New System.Drawing.Point(31, 241)
+        Me.GunaLabel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.GunaLabel1.Name = "GunaLabel1"
-        Me.GunaLabel1.Size = New System.Drawing.Size(87, 20)
+        Me.GunaLabel1.Size = New System.Drawing.Size(122, 36)
         Me.GunaLabel1.TabIndex = 31
         Me.GunaLabel1.Text = "Username:"
         '
@@ -176,10 +181,11 @@ Partial Class Admin
         '
         Me.GunaLabel2.AutoSize = True
         Me.GunaLabel2.BackColor = System.Drawing.Color.Transparent
-        Me.GunaLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel2.Location = New System.Drawing.Point(32, 281)
+        Me.GunaLabel2.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaLabel2.Location = New System.Drawing.Point(31, 344)
+        Me.GunaLabel2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.GunaLabel2.Name = "GunaLabel2"
-        Me.GunaLabel2.Size = New System.Drawing.Size(82, 20)
+        Me.GunaLabel2.Size = New System.Drawing.Size(115, 36)
         Me.GunaLabel2.TabIndex = 32
         Me.GunaLabel2.Text = "Password:"
         '
@@ -188,9 +194,11 @@ Partial Class Admin
         Me.Guna2PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox1.Image = Global.SalesnInventory.My.Resources.Resources.icons8_admin_80
         Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(140, 56)
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(182, 70)
+        Me.Guna2PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(79, 81)
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(105, 84)
+        Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.Guna2PictureBox1.TabIndex = 33
         Me.Guna2PictureBox1.TabStop = False
         '
@@ -204,11 +212,11 @@ Partial Class Admin
         '
         'Admin
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.LightGray
+        Me.BackColor = System.Drawing.Color.WhiteSmoke
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(350, 481)
+        Me.ClientSize = New System.Drawing.Size(467, 592)
         Me.Controls.Add(Me.Guna2PictureBox1)
         Me.Controls.Add(Me.GunaLabel2)
         Me.Controls.Add(Me.GunaLabel1)
@@ -218,6 +226,7 @@ Partial Class Admin
         Me.Controls.Add(Me.adminUsernameBox)
         Me.Controls.Add(Me.Guna2GradientButton1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Admin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"

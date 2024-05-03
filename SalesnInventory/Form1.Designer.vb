@@ -57,10 +57,11 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.Button3)
         Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel1.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel1.Location = New System.Drawing.Point(0, 31)
+        Me.Panel1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel1.Location = New System.Drawing.Point(0, 38)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(200, 502)
+        Me.Panel1.Size = New System.Drawing.Size(267, 618)
         Me.Panel1.TabIndex = 3
         '
         'GunaButton6
@@ -72,18 +73,19 @@ Partial Class Form1
         Me.GunaButton6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.GunaButton6.DialogResult = System.Windows.Forms.DialogResult.None
         Me.GunaButton6.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaButton6.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaButton6.ForeColor = System.Drawing.Color.White
         Me.GunaButton6.Image = Global.SalesnInventory.My.Resources.Resources.icons8_logout_40
         Me.GunaButton6.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton6.Location = New System.Drawing.Point(0, 457)
+        Me.GunaButton6.Location = New System.Drawing.Point(0, 562)
+        Me.GunaButton6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GunaButton6.Name = "GunaButton6"
         Me.GunaButton6.OnHoverBaseColor = System.Drawing.Color.Transparent
         Me.GunaButton6.OnHoverBorderColor = System.Drawing.Color.Transparent
         Me.GunaButton6.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
         Me.GunaButton6.OnHoverImage = Global.SalesnInventory.My.Resources.Resources.icons8_logout_40__1_
         Me.GunaButton6.OnPressedColor = System.Drawing.Color.White
-        Me.GunaButton6.Size = New System.Drawing.Size(200, 42)
+        Me.GunaButton6.Size = New System.Drawing.Size(267, 52)
         Me.GunaButton6.TabIndex = 12
         Me.GunaButton6.Text = "Logout"
         Me.GunaButton6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -97,18 +99,19 @@ Partial Class Form1
         Me.Button7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button7.DialogResult = System.Windows.Forms.DialogResult.None
         Me.Button7.FocusedColor = System.Drawing.Color.Empty
-        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.Color.White
         Me.Button7.Image = Global.SalesnInventory.My.Resources.Resources.icons8_backup_40
         Me.Button7.ImageSize = New System.Drawing.Size(20, 20)
-        Me.Button7.Location = New System.Drawing.Point(0, 327)
+        Me.Button7.Location = New System.Drawing.Point(0, 402)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button7.Name = "Button7"
         Me.Button7.OnHoverBaseColor = System.Drawing.Color.Transparent
         Me.Button7.OnHoverBorderColor = System.Drawing.Color.Transparent
         Me.Button7.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.Button7.OnHoverImage = Global.SalesnInventory.My.Resources.Resources.icons8_backup_40__1_
         Me.Button7.OnPressedColor = System.Drawing.Color.White
-        Me.Button7.Size = New System.Drawing.Size(200, 42)
+        Me.Button7.Size = New System.Drawing.Size(267, 52)
         Me.Button7.TabIndex = 11
         Me.Button7.Text = "Back-Up"
         Me.Button7.TextOffsetX = 10
@@ -122,18 +125,19 @@ Partial Class Form1
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.DialogResult = System.Windows.Forms.DialogResult.None
         Me.Button2.FocusedColor = System.Drawing.Color.Empty
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Image = Global.SalesnInventory.My.Resources.Resources.icons8_pay_40
         Me.Button2.ImageSize = New System.Drawing.Size(20, 20)
-        Me.Button2.Location = New System.Drawing.Point(0, 183)
+        Me.Button2.Location = New System.Drawing.Point(0, 225)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
         Me.Button2.OnHoverBaseColor = System.Drawing.Color.Transparent
         Me.Button2.OnHoverBorderColor = System.Drawing.Color.Transparent
         Me.Button2.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.Button2.OnHoverImage = Global.SalesnInventory.My.Resources.Resources.icons8_payment_40__1_
         Me.Button2.OnPressedColor = System.Drawing.Color.White
-        Me.Button2.Size = New System.Drawing.Size(200, 42)
+        Me.Button2.Size = New System.Drawing.Size(267, 52)
         Me.Button2.TabIndex = 8
         Me.Button2.Text = "Billing and Payment"
         Me.Button2.TextOffsetX = 10
@@ -147,18 +151,19 @@ Partial Class Form1
         Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button5.DialogResult = System.Windows.Forms.DialogResult.None
         Me.Button5.FocusedColor = System.Drawing.Color.Empty
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.White
         Me.Button5.Image = Global.SalesnInventory.My.Resources.Resources.icons8_users_40
         Me.Button5.ImageSize = New System.Drawing.Size(20, 20)
-        Me.Button5.Location = New System.Drawing.Point(0, 279)
+        Me.Button5.Location = New System.Drawing.Point(0, 343)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button5.Name = "Button5"
         Me.Button5.OnHoverBaseColor = System.Drawing.Color.Transparent
         Me.Button5.OnHoverBorderColor = System.Drawing.Color.Transparent
         Me.Button5.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.Button5.OnHoverImage = Global.SalesnInventory.My.Resources.Resources.icons8_users_40__1_
         Me.Button5.OnPressedColor = System.Drawing.Color.White
-        Me.Button5.Size = New System.Drawing.Size(200, 42)
+        Me.Button5.Size = New System.Drawing.Size(267, 52)
         Me.Button5.TabIndex = 10
         Me.Button5.Text = "Users"
         Me.Button5.TextOffsetX = 10
@@ -172,18 +177,19 @@ Partial Class Form1
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.DialogResult = System.Windows.Forms.DialogResult.None
         Me.Button1.FocusedColor = System.Drawing.Color.Empty
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Image = Global.SalesnInventory.My.Resources.Resources.icons8_dashboard_40
         Me.Button1.ImageSize = New System.Drawing.Size(20, 20)
-        Me.Button1.Location = New System.Drawing.Point(0, 135)
+        Me.Button1.Location = New System.Drawing.Point(0, 166)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
         Me.Button1.OnHoverBaseColor = System.Drawing.Color.Transparent
         Me.Button1.OnHoverBorderColor = System.Drawing.Color.Transparent
         Me.Button1.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.Button1.OnHoverImage = Global.SalesnInventory.My.Resources.Resources.icons8_dashboard_40__1_
         Me.Button1.OnPressedColor = System.Drawing.Color.White
-        Me.Button1.Size = New System.Drawing.Size(200, 42)
+        Me.Button1.Size = New System.Drawing.Size(267, 52)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Dashboard"
         Me.Button1.TextOffsetX = 10
@@ -197,18 +203,19 @@ Partial Class Form1
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button3.DialogResult = System.Windows.Forms.DialogResult.None
         Me.Button3.FocusedColor = System.Drawing.Color.Empty
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Image = Global.SalesnInventory.My.Resources.Resources.icons8_in_inventory_40
         Me.Button3.ImageSize = New System.Drawing.Size(20, 20)
-        Me.Button3.Location = New System.Drawing.Point(0, 231)
+        Me.Button3.Location = New System.Drawing.Point(0, 284)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
         Me.Button3.OnHoverBaseColor = System.Drawing.Color.Transparent
         Me.Button3.OnHoverBorderColor = System.Drawing.Color.Transparent
         Me.Button3.OnHoverForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.Button3.OnHoverImage = Global.SalesnInventory.My.Resources.Resources.icons8_payment_40__1_1
         Me.Button3.OnPressedColor = System.Drawing.Color.White
-        Me.Button3.Size = New System.Drawing.Size(200, 42)
+        Me.Button3.Size = New System.Drawing.Size(267, 52)
         Me.Button3.TabIndex = 9
         Me.Button3.Text = "Inventory"
         Me.Button3.TextOffsetX = 10
@@ -222,15 +229,17 @@ Partial Class Form1
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(200, 129)
+        Me.Panel2.Size = New System.Drawing.Size(267, 159)
         Me.Panel2.TabIndex = 0
         '
         'GunaPanel1
         '
-        Me.GunaPanel1.Location = New System.Drawing.Point(206, 0)
+        Me.GunaPanel1.Location = New System.Drawing.Point(275, 0)
+        Me.GunaPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GunaPanel1.Name = "GunaPanel1"
-        Me.GunaPanel1.Size = New System.Drawing.Size(593, 418)
+        Me.GunaPanel1.Size = New System.Drawing.Size(791, 514)
         Me.GunaPanel1.TabIndex = 5
         '
         'GunaPictureBox1
@@ -238,22 +247,23 @@ Partial Class Form1
         Me.GunaPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.GunaPictureBox1.BaseColor = System.Drawing.Color.White
         Me.GunaPictureBox1.Image = Global.SalesnInventory.My.Resources.Resources.icons8_admin_65
-        Me.GunaPictureBox1.Location = New System.Drawing.Point(68, 17)
+        Me.GunaPictureBox1.Location = New System.Drawing.Point(91, 21)
+        Me.GunaPictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GunaPictureBox1.Name = "GunaPictureBox1"
-        Me.GunaPictureBox1.Size = New System.Drawing.Size(63, 63)
+        Me.GunaPictureBox1.Size = New System.Drawing.Size(84, 78)
         Me.GunaPictureBox1.TabIndex = 0
         Me.GunaPictureBox1.TabStop = False
         '
         'Label3
         '
-        Me.Label3.AutoSize = True
         Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Poppins", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Label3.Location = New System.Drawing.Point(29, 93)
+        Me.Label3.Location = New System.Drawing.Point(-4, 103)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(139, 16)
+        Me.Label3.Size = New System.Drawing.Size(271, 45)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "WELCOME ADMIN!"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -266,20 +276,22 @@ Partial Class Form1
         Me.Panel3.Controls.Add(Me.Guna2ControlBox1)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel3.Location = New System.Drawing.Point(0, 0)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1025, 31)
+        Me.Panel3.Size = New System.Drawing.Size(1367, 38)
         Me.Panel3.TabIndex = 4
         '
         'GunaLabel2
         '
         Me.GunaLabel2.AutoSize = True
         Me.GunaLabel2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GunaLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaLabel2.Font = New System.Drawing.Font("Poppins", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.GunaLabel2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.GunaLabel2.Location = New System.Drawing.Point(3, 5)
+        Me.GunaLabel2.Location = New System.Drawing.Point(4, 6)
+        Me.GunaLabel2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.GunaLabel2.Name = "GunaLabel2"
-        Me.GunaLabel2.Size = New System.Drawing.Size(116, 18)
+        Me.GunaLabel2.Size = New System.Drawing.Size(135, 34)
         Me.GunaLabel2.TabIndex = 1
         Me.GunaLabel2.Text = "GOLD MEDAL"
         '
@@ -290,9 +302,10 @@ Partial Class Form1
         Me.Guna2ControlBox2.Dock = System.Windows.Forms.DockStyle.Right
         Me.Guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(71, Byte), Integer))
         Me.Guna2ControlBox2.IconColor = System.Drawing.Color.White
-        Me.Guna2ControlBox2.Location = New System.Drawing.Point(935, 0)
+        Me.Guna2ControlBox2.Location = New System.Drawing.Point(1247, 0)
+        Me.Guna2ControlBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Me.Guna2ControlBox2.Size = New System.Drawing.Size(45, 31)
+        Me.Guna2ControlBox2.Size = New System.Drawing.Size(60, 38)
         Me.Guna2ControlBox2.TabIndex = 7
         '
         'Guna2ControlBox1
@@ -301,9 +314,10 @@ Partial Class Form1
         Me.Guna2ControlBox1.Dock = System.Windows.Forms.DockStyle.Right
         Me.Guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(71, Byte), Integer))
         Me.Guna2ControlBox1.IconColor = System.Drawing.Color.White
-        Me.Guna2ControlBox1.Location = New System.Drawing.Point(980, 0)
+        Me.Guna2ControlBox1.Location = New System.Drawing.Point(1307, 0)
+        Me.Guna2ControlBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2ControlBox1.Name = "Guna2ControlBox1"
-        Me.Guna2ControlBox1.Size = New System.Drawing.Size(45, 31)
+        Me.Guna2ControlBox1.Size = New System.Drawing.Size(60, 38)
         Me.Guna2ControlBox1.TabIndex = 6
         '
         'Guna2BorderlessForm1
@@ -317,27 +331,28 @@ Partial Class Form1
         '
         'Panel5
         '
-        Me.Panel5.Location = New System.Drawing.Point(206, 31)
+        Me.Panel5.Location = New System.Drawing.Point(265, 38)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(816, 499)
+        Me.Panel5.Size = New System.Drawing.Size(1098, 614)
         Me.Panel5.TabIndex = 5
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1025, 533)
+        Me.ClientSize = New System.Drawing.Size(1367, 656)
         Me.ControlBox = False
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel3)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
         CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()

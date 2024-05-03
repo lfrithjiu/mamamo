@@ -46,19 +46,20 @@ Partial Class updateStocks
         '
         Me.cancelStockBtn.Animated = True
         Me.cancelStockBtn.AutoRoundedCorners = True
-        Me.cancelStockBtn.BorderRadius = 16
+        Me.cancelStockBtn.BorderRadius = 20
         Me.cancelStockBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cancelStockBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.cancelStockBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.cancelStockBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.cancelStockBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.cancelStockBtn.FillColor = System.Drawing.Color.Silver
-        Me.cancelStockBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cancelStockBtn.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cancelStockBtn.ForeColor = System.Drawing.Color.Black
         Me.cancelStockBtn.Image = Global.SalesnInventory.My.Resources.Resources.icons8_cancel_40
-        Me.cancelStockBtn.Location = New System.Drawing.Point(315, 274)
+        Me.cancelStockBtn.Location = New System.Drawing.Point(420, 337)
+        Me.cancelStockBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cancelStockBtn.Name = "cancelStockBtn"
-        Me.cancelStockBtn.Size = New System.Drawing.Size(168, 35)
+        Me.cancelStockBtn.Size = New System.Drawing.Size(224, 43)
         Me.cancelStockBtn.TabIndex = 26
         Me.cancelStockBtn.Text = "Cancel"
         '
@@ -66,29 +67,31 @@ Partial Class updateStocks
         '
         Me.updateStockBtn.Animated = True
         Me.updateStockBtn.AutoRoundedCorners = True
-        Me.updateStockBtn.BorderRadius = 16
+        Me.updateStockBtn.BorderRadius = 20
         Me.updateStockBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.updateStockBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.updateStockBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.updateStockBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.updateStockBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.updateStockBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(183, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.updateStockBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.updateStockBtn.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.updateStockBtn.ForeColor = System.Drawing.Color.Black
         Me.updateStockBtn.Image = Global.SalesnInventory.My.Resources.Resources.icons8_update_40__2_
-        Me.updateStockBtn.Location = New System.Drawing.Point(315, 233)
+        Me.updateStockBtn.Location = New System.Drawing.Point(420, 287)
+        Me.updateStockBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.updateStockBtn.Name = "updateStockBtn"
-        Me.updateStockBtn.Size = New System.Drawing.Size(168, 35)
+        Me.updateStockBtn.Size = New System.Drawing.Size(224, 43)
         Me.updateStockBtn.TabIndex = 25
         Me.updateStockBtn.Text = "Update"
         '
         'Guna2HtmlLabel5
         '
         Me.Guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(300, 146)
+        Me.Guna2HtmlLabel5.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(400, 180)
+        Me.Guna2HtmlLabel5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
-        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(92, 22)
+        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(124, 38)
         Me.Guna2HtmlLabel5.TabIndex = 24
         Me.Guna2HtmlLabel5.Text = "Year Added:"
         '
@@ -107,22 +110,23 @@ Partial Class updateStocks
         Me.yearTxtBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.yearTxtBox.ForeColor = System.Drawing.Color.Black
         Me.yearTxtBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.yearTxtBox.Location = New System.Drawing.Point(300, 182)
-        Me.yearTxtBox.Margin = New System.Windows.Forms.Padding(4)
+        Me.yearTxtBox.Location = New System.Drawing.Point(400, 224)
+        Me.yearTxtBox.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.yearTxtBox.Name = "yearTxtBox"
         Me.yearTxtBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.yearTxtBox.PlaceholderText = ""
         Me.yearTxtBox.SelectedText = ""
-        Me.yearTxtBox.Size = New System.Drawing.Size(201, 36)
+        Me.yearTxtBox.Size = New System.Drawing.Size(268, 44)
         Me.yearTxtBox.TabIndex = 23
         '
         'Guna2HtmlLabel4
         '
         Me.Guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel4.Location = New System.Drawing.Point(300, 62)
+        Me.Guna2HtmlLabel4.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel4.Location = New System.Drawing.Point(400, 76)
+        Me.Guna2HtmlLabel4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
-        Me.Guna2HtmlLabel4.Size = New System.Drawing.Size(66, 22)
+        Me.Guna2HtmlLabel4.Size = New System.Drawing.Size(93, 38)
         Me.Guna2HtmlLabel4.TabIndex = 22
         Me.Guna2HtmlLabel4.Text = "Quantity:"
         '
@@ -141,42 +145,45 @@ Partial Class updateStocks
         Me.qtyTxtBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.qtyTxtBox.ForeColor = System.Drawing.Color.Black
         Me.qtyTxtBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.qtyTxtBox.Location = New System.Drawing.Point(300, 103)
-        Me.qtyTxtBox.Margin = New System.Windows.Forms.Padding(4)
+        Me.qtyTxtBox.Location = New System.Drawing.Point(400, 127)
+        Me.qtyTxtBox.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.qtyTxtBox.Name = "qtyTxtBox"
         Me.qtyTxtBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.qtyTxtBox.PlaceholderText = ""
         Me.qtyTxtBox.SelectedText = ""
-        Me.qtyTxtBox.Size = New System.Drawing.Size(201, 36)
+        Me.qtyTxtBox.Size = New System.Drawing.Size(268, 44)
         Me.qtyTxtBox.TabIndex = 21
         '
         'Guna2HtmlLabel3
         '
         Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(36, 233)
+        Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(48, 287)
+        Me.Guna2HtmlLabel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(123, 22)
+        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(173, 38)
         Me.Guna2HtmlLabel3.TabIndex = 19
         Me.Guna2HtmlLabel3.Text = "Select Company:"
         '
         'Guna2HtmlLabel2
         '
         Me.Guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(36, 154)
+        Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(48, 190)
+        Me.Guna2HtmlLabel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(81, 22)
+        Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(108, 38)
         Me.Guna2HtmlLabel2.TabIndex = 17
         Me.Guna2HtmlLabel2.Text = "Select Car:"
         '
         'Guna2HtmlLabel1
         '
         Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(36, 63)
+        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(48, 78)
+        Me.Guna2HtmlLabel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(111, 22)
+        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(150, 38)
         Me.Guna2HtmlLabel1.TabIndex = 15
         Me.Guna2HtmlLabel1.Text = "Select Product:"
         '
@@ -200,19 +207,21 @@ Partial Class updateStocks
         Me.GunaElipsePanel1.Controls.Add(Me.Guna2HtmlLabel6)
         Me.GunaElipsePanel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.GunaElipsePanel1.Location = New System.Drawing.Point(0, 0)
+        Me.GunaElipsePanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GunaElipsePanel1.Name = "GunaElipsePanel1"
         Me.GunaElipsePanel1.Radius = 1
-        Me.GunaElipsePanel1.Size = New System.Drawing.Size(536, 36)
+        Me.GunaElipsePanel1.Size = New System.Drawing.Size(715, 44)
         Me.GunaElipsePanel1.TabIndex = 27
         '
         'Guna2HtmlLabel6
         '
         Me.Guna2HtmlLabel6.BackColor = System.Drawing.Color.MidnightBlue
-        Me.Guna2HtmlLabel6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel6.Font = New System.Drawing.Font("Poppins", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel6.ForeColor = System.Drawing.Color.White
-        Me.Guna2HtmlLabel6.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2HtmlLabel6.Location = New System.Drawing.Point(4, 4)
+        Me.Guna2HtmlLabel6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
-        Me.Guna2HtmlLabel6.Size = New System.Drawing.Size(136, 26)
+        Me.Guna2HtmlLabel6.Size = New System.Drawing.Size(174, 42)
         Me.Guna2HtmlLabel6.TabIndex = 14
         Me.Guna2HtmlLabel6.Text = "Update Stocks"
         '
@@ -228,9 +237,10 @@ Partial Class updateStocks
         Me.Guna2ComboBox1.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.Guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.Guna2ComboBox1.ItemHeight = 30
-        Me.Guna2ComboBox1.Location = New System.Drawing.Point(36, 103)
+        Me.Guna2ComboBox1.Location = New System.Drawing.Point(48, 127)
+        Me.Guna2ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2ComboBox1.Name = "Guna2ComboBox1"
-        Me.Guna2ComboBox1.Size = New System.Drawing.Size(204, 36)
+        Me.Guna2ComboBox1.Size = New System.Drawing.Size(271, 36)
         Me.Guna2ComboBox1.TabIndex = 0
         '
         'Guna2ComboBox2
@@ -245,9 +255,10 @@ Partial Class updateStocks
         Me.Guna2ComboBox2.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.Guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.Guna2ComboBox2.ItemHeight = 30
-        Me.Guna2ComboBox2.Location = New System.Drawing.Point(36, 182)
+        Me.Guna2ComboBox2.Location = New System.Drawing.Point(48, 224)
+        Me.Guna2ComboBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2ComboBox2.Name = "Guna2ComboBox2"
-        Me.Guna2ComboBox2.Size = New System.Drawing.Size(204, 36)
+        Me.Guna2ComboBox2.Size = New System.Drawing.Size(271, 36)
         Me.Guna2ComboBox2.TabIndex = 28
         '
         'Guna2ComboBox3
@@ -262,16 +273,17 @@ Partial Class updateStocks
         Me.Guna2ComboBox3.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.Guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.Guna2ComboBox3.ItemHeight = 30
-        Me.Guna2ComboBox3.Location = New System.Drawing.Point(36, 260)
+        Me.Guna2ComboBox3.Location = New System.Drawing.Point(48, 320)
+        Me.Guna2ComboBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2ComboBox3.Name = "Guna2ComboBox3"
-        Me.Guna2ComboBox3.Size = New System.Drawing.Size(204, 36)
+        Me.Guna2ComboBox3.Size = New System.Drawing.Size(271, 36)
         Me.Guna2ComboBox3.TabIndex = 29
         '
         'updateStocks
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(536, 335)
+        Me.ClientSize = New System.Drawing.Size(715, 412)
         Me.Controls.Add(Me.Guna2ComboBox3)
         Me.Controls.Add(Me.Guna2ComboBox2)
         Me.Controls.Add(Me.Guna2ComboBox1)
@@ -286,6 +298,7 @@ Partial Class updateStocks
         Me.Controls.Add(Me.Guna2HtmlLabel2)
         Me.Controls.Add(Me.Guna2HtmlLabel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "updateStocks"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Update Stock"

@@ -42,7 +42,7 @@ Partial Class seeUsers
         '
         Me.userGridView.AllowUserToResizeRows = False
         DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Poppins", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText
         DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
@@ -50,7 +50,7 @@ Partial Class seeUsers
         Me.userGridView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Poppins", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
@@ -60,26 +60,28 @@ Partial Class seeUsers
         Me.userGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Poppins", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.userGridView.DefaultCellStyle = DataGridViewCellStyle3
         Me.userGridView.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.userGridView.Location = New System.Drawing.Point(12, 59)
+        Me.userGridView.Location = New System.Drawing.Point(16, 73)
+        Me.userGridView.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.userGridView.Name = "userGridView"
         Me.userGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Poppins", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
         DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.Desktop
         DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.userGridView.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
         Me.userGridView.RowHeadersVisible = False
-        Me.userGridView.Size = New System.Drawing.Size(616, 272)
+        Me.userGridView.RowHeadersWidth = 51
+        Me.userGridView.Size = New System.Drawing.Size(821, 335)
         Me.userGridView.TabIndex = 0
         Me.userGridView.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.userGridView.ThemeStyle.AlternatingRowsStyle.Font = Nothing
@@ -107,7 +109,7 @@ Partial Class seeUsers
         '
         Me.cancelStockBtn.Animated = True
         Me.cancelStockBtn.AutoRoundedCorners = True
-        Me.cancelStockBtn.BorderRadius = 17
+        Me.cancelStockBtn.BorderRadius = 22
         Me.cancelStockBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cancelStockBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.cancelStockBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -117,9 +119,10 @@ Partial Class seeUsers
         Me.cancelStockBtn.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cancelStockBtn.ForeColor = System.Drawing.Color.Black
         Me.cancelStockBtn.Image = Global.SalesnInventory.My.Resources.Resources.icons8_cancel_40
-        Me.cancelStockBtn.Location = New System.Drawing.Point(91, 347)
+        Me.cancelStockBtn.Location = New System.Drawing.Point(121, 427)
+        Me.cancelStockBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cancelStockBtn.Name = "cancelStockBtn"
-        Me.cancelStockBtn.Size = New System.Drawing.Size(175, 37)
+        Me.cancelStockBtn.Size = New System.Drawing.Size(233, 46)
         Me.cancelStockBtn.TabIndex = 14
         Me.cancelStockBtn.Text = "Cancel"
         '
@@ -127,7 +130,7 @@ Partial Class seeUsers
         '
         Me.addStockBtn.Animated = True
         Me.addStockBtn.AutoRoundedCorners = True
-        Me.addStockBtn.BorderRadius = 16
+        Me.addStockBtn.BorderRadius = 20
         Me.addStockBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.addStockBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.addStockBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -137,9 +140,10 @@ Partial Class seeUsers
         Me.addStockBtn.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.addStockBtn.ForeColor = System.Drawing.Color.White
         Me.addStockBtn.Image = Global.SalesnInventory.My.Resources.Resources.icons8_add_40__1_
-        Me.addStockBtn.Location = New System.Drawing.Point(352, 347)
+        Me.addStockBtn.Location = New System.Drawing.Point(469, 427)
+        Me.addStockBtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.addStockBtn.Name = "addStockBtn"
-        Me.addStockBtn.Size = New System.Drawing.Size(175, 35)
+        Me.addStockBtn.Size = New System.Drawing.Size(233, 43)
         Me.addStockBtn.TabIndex = 13
         Me.addStockBtn.Text = "Add"
         '
@@ -162,8 +166,9 @@ Partial Class seeUsers
         Me.Guna2Panel1.Controls.Add(Me.GunaLabel1)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Size = New System.Drawing.Size(640, 35)
+        Me.Guna2Panel1.Size = New System.Drawing.Size(853, 43)
         Me.Guna2Panel1.TabIndex = 15
         '
         'GunaLabel1
@@ -171,22 +176,24 @@ Partial Class seeUsers
         Me.GunaLabel1.AutoSize = True
         Me.GunaLabel1.Font = New System.Drawing.Font("Poppins Medium", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel1.ForeColor = System.Drawing.Color.White
-        Me.GunaLabel1.Location = New System.Drawing.Point(3, 7)
+        Me.GunaLabel1.Location = New System.Drawing.Point(4, 9)
+        Me.GunaLabel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.GunaLabel1.Name = "GunaLabel1"
-        Me.GunaLabel1.Size = New System.Drawing.Size(130, 28)
+        Me.GunaLabel1.Size = New System.Drawing.Size(160, 36)
         Me.GunaLabel1.TabIndex = 0
         Me.GunaLabel1.Text = "User Records"
         '
         'seeUsers
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(640, 397)
+        Me.ClientSize = New System.Drawing.Size(853, 489)
         Me.Controls.Add(Me.Guna2Panel1)
         Me.Controls.Add(Me.cancelStockBtn)
         Me.Controls.Add(Me.addStockBtn)
         Me.Controls.Add(Me.userGridView)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "seeUsers"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "User Records"

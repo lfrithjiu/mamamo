@@ -66,13 +66,14 @@ Partial Class addUser
         Me.tb_birthdate.BorderRadius = 10
         Me.tb_birthdate.Checked = True
         Me.tb_birthdate.FillColor = System.Drawing.Color.White
-        Me.tb_birthdate.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_birthdate.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_birthdate.Format = System.Windows.Forms.DateTimePickerFormat.[Long]
-        Me.tb_birthdate.Location = New System.Drawing.Point(34, 228)
+        Me.tb_birthdate.Location = New System.Drawing.Point(45, 281)
+        Me.tb_birthdate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tb_birthdate.MaxDate = New Date(2022, 12, 13, 0, 0, 0, 0)
         Me.tb_birthdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         Me.tb_birthdate.Name = "tb_birthdate"
-        Me.tb_birthdate.Size = New System.Drawing.Size(246, 25)
+        Me.tb_birthdate.Size = New System.Drawing.Size(328, 31)
         Me.tb_birthdate.TabIndex = 93
         Me.tb_birthdate.Value = New Date(2022, 12, 8, 8, 14, 24, 961)
         '
@@ -89,30 +90,31 @@ Partial Class addUser
         Me.tb_email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.tb_email.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_email.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_email.ForeColor = System.Drawing.Color.Black
         Me.tb_email.HoverState.BorderColor = System.Drawing.Color.Black
         Me.tb_email.HoverState.FillColor = System.Drawing.Color.Silver
         Me.tb_email.HoverState.ForeColor = System.Drawing.Color.Black
-        Me.tb_email.Location = New System.Drawing.Point(323, 292)
-        Me.tb_email.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.tb_email.Location = New System.Drawing.Point(431, 359)
+        Me.tb_email.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.tb_email.Name = "tb_email"
         Me.tb_email.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.tb_email.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.tb_email.PlaceholderText = "Ex: fr****@gmail.com"
         Me.tb_email.SelectedText = ""
-        Me.tb_email.Size = New System.Drawing.Size(453, 36)
+        Me.tb_email.Size = New System.Drawing.Size(604, 44)
         Me.tb_email.TabIndex = 92
         '
         'Label14
         '
         Me.Label14.AutoSize = True
         Me.Label14.BackColor = System.Drawing.Color.Transparent
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.ForeColor = System.Drawing.Color.White
-        Me.Label14.Location = New System.Drawing.Point(321, 263)
+        Me.Label14.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.ForeColor = System.Drawing.Color.Black
+        Me.Label14.Location = New System.Drawing.Point(428, 324)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(57, 20)
+        Me.Label14.Size = New System.Drawing.Size(85, 36)
         Me.Label14.TabIndex = 91
         Me.Label14.Text = "E-mail:"
         '
@@ -127,14 +129,15 @@ Partial Class addUser
         Me.btn_cancel.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.btn_cancel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.btn_cancel.FillColor = System.Drawing.Color.Silver
-        Me.btn_cancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_cancel.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_cancel.ForeColor = System.Drawing.Color.Black
         Me.btn_cancel.HoverState.FillColor = System.Drawing.Color.White
         Me.btn_cancel.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(147, Byte), Integer))
         Me.btn_cancel.Image = Global.SalesnInventory.My.Resources.Resources.icons8_cancel_40
-        Me.btn_cancel.Location = New System.Drawing.Point(456, 432)
+        Me.btn_cancel.Location = New System.Drawing.Point(608, 532)
+        Me.btn_cancel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_cancel.Name = "btn_cancel"
-        Me.btn_cancel.Size = New System.Drawing.Size(145, 40)
+        Me.btn_cancel.Size = New System.Drawing.Size(193, 49)
         Me.btn_cancel.TabIndex = 90
         Me.btn_cancel.Text = "Cancel"
         Me.btn_cancel.UseTransparentBackground = True
@@ -148,12 +151,13 @@ Partial Class addUser
         Me.cb_civilstat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cb_civilstat.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.cb_civilstat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.cb_civilstat.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cb_civilstat.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cb_civilstat.ForeColor = System.Drawing.Color.Black
         Me.cb_civilstat.ItemHeight = 30
-        Me.cb_civilstat.Location = New System.Drawing.Point(34, 376)
+        Me.cb_civilstat.Location = New System.Drawing.Point(45, 463)
+        Me.cb_civilstat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cb_civilstat.Name = "cb_civilstat"
-        Me.cb_civilstat.Size = New System.Drawing.Size(246, 36)
+        Me.cb_civilstat.Size = New System.Drawing.Size(327, 36)
         Me.cb_civilstat.TabIndex = 89
         '
         'cb_gender
@@ -165,12 +169,13 @@ Partial Class addUser
         Me.cb_gender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cb_gender.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.cb_gender.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.cb_gender.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cb_gender.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cb_gender.ForeColor = System.Drawing.Color.Black
         Me.cb_gender.ItemHeight = 30
-        Me.cb_gender.Location = New System.Drawing.Point(34, 292)
+        Me.cb_gender.Location = New System.Drawing.Point(45, 359)
+        Me.cb_gender.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cb_gender.Name = "cb_gender"
-        Me.cb_gender.Size = New System.Drawing.Size(246, 36)
+        Me.cb_gender.Size = New System.Drawing.Size(327, 36)
         Me.cb_gender.TabIndex = 88
         '
         'btn_register
@@ -184,14 +189,15 @@ Partial Class addUser
         Me.btn_register.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.btn_register.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.btn_register.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.btn_register.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_register.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_register.ForeColor = System.Drawing.Color.Black
         Me.btn_register.HoverState.FillColor = System.Drawing.Color.White
         Me.btn_register.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(147, Byte), Integer))
         Me.btn_register.Image = Global.SalesnInventory.My.Resources.Resources.icons8_register_40
-        Me.btn_register.Location = New System.Drawing.Point(631, 432)
+        Me.btn_register.Location = New System.Drawing.Point(841, 532)
+        Me.btn_register.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btn_register.Name = "btn_register"
-        Me.btn_register.Size = New System.Drawing.Size(145, 40)
+        Me.btn_register.Size = New System.Drawing.Size(193, 49)
         Me.btn_register.TabIndex = 87
         Me.btn_register.Text = "Register"
         Me.btn_register.UseTransparentBackground = True
@@ -200,11 +206,12 @@ Partial Class addUser
         '
         Me.Label13.AutoSize = True
         Me.Label13.BackColor = System.Drawing.Color.Transparent
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.ForeColor = System.Drawing.Color.White
-        Me.Label13.Location = New System.Drawing.Point(29, 344)
+        Me.Label13.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.ForeColor = System.Drawing.Color.Black
+        Me.Label13.Location = New System.Drawing.Point(39, 423)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(91, 20)
+        Me.Label13.Size = New System.Drawing.Size(128, 36)
         Me.Label13.TabIndex = 86
         Me.Label13.Text = "Civil Status:"
         '
@@ -221,30 +228,31 @@ Partial Class addUser
         Me.tb_nationality.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_nationality.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_nationality.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.tb_nationality.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_nationality.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_nationality.ForeColor = System.Drawing.Color.Black
         Me.tb_nationality.HoverState.BorderColor = System.Drawing.Color.Black
         Me.tb_nationality.HoverState.FillColor = System.Drawing.Color.Silver
         Me.tb_nationality.HoverState.ForeColor = System.Drawing.Color.Black
-        Me.tb_nationality.Location = New System.Drawing.Point(326, 376)
-        Me.tb_nationality.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.tb_nationality.Location = New System.Drawing.Point(435, 463)
+        Me.tb_nationality.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.tb_nationality.Name = "tb_nationality"
         Me.tb_nationality.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.tb_nationality.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.tb_nationality.PlaceholderText = "Ex: Filipino"
         Me.tb_nationality.SelectedText = ""
-        Me.tb_nationality.Size = New System.Drawing.Size(216, 36)
+        Me.tb_nationality.Size = New System.Drawing.Size(288, 44)
         Me.tb_nationality.TabIndex = 85
         '
         'Label12
         '
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.Color.Transparent
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.ForeColor = System.Drawing.Color.White
-        Me.Label12.Location = New System.Drawing.Point(321, 344)
+        Me.Label12.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.Black
+        Me.Label12.Location = New System.Drawing.Point(428, 423)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(86, 20)
+        Me.Label12.Size = New System.Drawing.Size(127, 36)
         Me.Label12.TabIndex = 84
         Me.Label12.Text = "Nationality:"
         '
@@ -261,19 +269,19 @@ Partial Class addUser
         Me.tb_username.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_username.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_username.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.tb_username.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_username.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_username.ForeColor = System.Drawing.Color.Black
         Me.tb_username.HoverState.BorderColor = System.Drawing.Color.Black
         Me.tb_username.HoverState.FillColor = System.Drawing.Color.Silver
         Me.tb_username.HoverState.ForeColor = System.Drawing.Color.Black
-        Me.tb_username.Location = New System.Drawing.Point(563, 103)
-        Me.tb_username.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.tb_username.Location = New System.Drawing.Point(751, 127)
+        Me.tb_username.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.tb_username.Name = "tb_username"
         Me.tb_username.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.tb_username.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.tb_username.PlaceholderText = "Ex: Frankie"
         Me.tb_username.SelectedText = ""
-        Me.tb_username.Size = New System.Drawing.Size(216, 25)
+        Me.tb_username.Size = New System.Drawing.Size(288, 31)
         Me.tb_username.TabIndex = 83
         '
         'tb_password
@@ -289,30 +297,31 @@ Partial Class addUser
         Me.tb_password.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_password.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_password.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.tb_password.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_password.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_password.ForeColor = System.Drawing.Color.Black
         Me.tb_password.HoverState.BorderColor = System.Drawing.Color.Black
         Me.tb_password.HoverState.FillColor = System.Drawing.Color.Silver
         Me.tb_password.HoverState.ForeColor = System.Drawing.Color.Black
-        Me.tb_password.Location = New System.Drawing.Point(563, 159)
-        Me.tb_password.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.tb_password.Location = New System.Drawing.Point(751, 196)
+        Me.tb_password.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.tb_password.Name = "tb_password"
         Me.tb_password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.tb_password.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.tb_password.PlaceholderText = "*********"
         Me.tb_password.SelectedText = ""
-        Me.tb_password.Size = New System.Drawing.Size(216, 25)
+        Me.tb_password.Size = New System.Drawing.Size(288, 31)
         Me.tb_password.TabIndex = 82
         '
         'Label11
         '
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.White
-        Me.Label11.Location = New System.Drawing.Point(558, 131)
+        Me.Label11.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.Black
+        Me.Label11.Location = New System.Drawing.Point(744, 161)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(82, 20)
+        Me.Label11.Size = New System.Drawing.Size(115, 36)
         Me.Label11.TabIndex = 81
         Me.Label11.Text = "Password:"
         '
@@ -320,11 +329,12 @@ Partial Class addUser
         '
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Transparent
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(558, 78)
+        Me.Label10.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.Black
+        Me.Label10.Location = New System.Drawing.Point(744, 96)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(87, 20)
+        Me.Label10.Size = New System.Drawing.Size(122, 36)
         Me.Label10.TabIndex = 80
         Me.Label10.Text = "Username:"
         '
@@ -341,30 +351,31 @@ Partial Class addUser
         Me.tb_securitynum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_securitynum.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_securitynum.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.tb_securitynum.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_securitynum.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_securitynum.ForeColor = System.Drawing.Color.Black
         Me.tb_securitynum.HoverState.BorderColor = System.Drawing.Color.Black
         Me.tb_securitynum.HoverState.FillColor = System.Drawing.Color.Silver
         Me.tb_securitynum.HoverState.ForeColor = System.Drawing.Color.Black
-        Me.tb_securitynum.Location = New System.Drawing.Point(326, 159)
-        Me.tb_securitynum.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.tb_securitynum.Location = New System.Drawing.Point(435, 196)
+        Me.tb_securitynum.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.tb_securitynum.Name = "tb_securitynum"
         Me.tb_securitynum.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.tb_securitynum.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.tb_securitynum.PlaceholderText = "515-785-496-1"
         Me.tb_securitynum.SelectedText = ""
-        Me.tb_securitynum.Size = New System.Drawing.Size(216, 25)
+        Me.tb_securitynum.Size = New System.Drawing.Size(288, 31)
         Me.tb_securitynum.TabIndex = 79
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(321, 131)
+        Me.Label9.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.Black
+        Me.Label9.Location = New System.Drawing.Point(428, 161)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(177, 20)
+        Me.Label9.Size = New System.Drawing.Size(250, 36)
         Me.Label9.TabIndex = 78
         Me.Label9.Text = "Social Security Number:"
         '
@@ -381,30 +392,31 @@ Partial Class addUser
         Me.tb_address.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_address.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_address.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.tb_address.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_address.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_address.ForeColor = System.Drawing.Color.Black
         Me.tb_address.HoverState.BorderColor = System.Drawing.Color.Black
         Me.tb_address.HoverState.FillColor = System.Drawing.Color.Silver
         Me.tb_address.HoverState.ForeColor = System.Drawing.Color.Black
-        Me.tb_address.Location = New System.Drawing.Point(326, 228)
-        Me.tb_address.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.tb_address.Location = New System.Drawing.Point(435, 281)
+        Me.tb_address.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.tb_address.Name = "tb_address"
         Me.tb_address.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.tb_address.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.tb_address.PlaceholderText = "Ex: San Bartolome Quezon City"
         Me.tb_address.SelectedText = ""
-        Me.tb_address.Size = New System.Drawing.Size(453, 25)
+        Me.tb_address.Size = New System.Drawing.Size(604, 31)
         Me.tb_address.TabIndex = 77
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(321, 200)
+        Me.Label8.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.Black
+        Me.Label8.Location = New System.Drawing.Point(428, 246)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(72, 20)
+        Me.Label8.Size = New System.Drawing.Size(99, 36)
         Me.Label8.TabIndex = 76
         Me.Label8.Text = "Address:"
         '
@@ -421,30 +433,31 @@ Partial Class addUser
         Me.tb_contactnum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_contactnum.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_contactnum.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.tb_contactnum.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_contactnum.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_contactnum.ForeColor = System.Drawing.Color.Black
         Me.tb_contactnum.HoverState.BorderColor = System.Drawing.Color.Black
         Me.tb_contactnum.HoverState.FillColor = System.Drawing.Color.Silver
         Me.tb_contactnum.HoverState.ForeColor = System.Drawing.Color.Black
-        Me.tb_contactnum.Location = New System.Drawing.Point(326, 103)
-        Me.tb_contactnum.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.tb_contactnum.Location = New System.Drawing.Point(435, 127)
+        Me.tb_contactnum.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.tb_contactnum.Name = "tb_contactnum"
         Me.tb_contactnum.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.tb_contactnum.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.tb_contactnum.PlaceholderText = "09*********"
         Me.tb_contactnum.SelectedText = ""
-        Me.tb_contactnum.Size = New System.Drawing.Size(216, 25)
+        Me.tb_contactnum.Size = New System.Drawing.Size(288, 31)
         Me.tb_contactnum.TabIndex = 75
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(321, 78)
+        Me.Label7.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.Black
+        Me.Label7.Location = New System.Drawing.Point(428, 96)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(129, 20)
+        Me.Label7.Size = New System.Drawing.Size(186, 36)
         Me.Label7.TabIndex = 74
         Me.Label7.Text = "Contact Number:"
         '
@@ -452,11 +465,12 @@ Partial Class addUser
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(2, 0)
+        Me.Label6.Font = New System.Drawing.Font("Poppins", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Black
+        Me.Label6.Location = New System.Drawing.Point(3, 0)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(171, 33)
+        Me.Label6.Size = New System.Drawing.Size(206, 67)
         Me.Label6.TabIndex = 73
         Me.Label6.Text = "REGISTER"
         '
@@ -464,11 +478,12 @@ Partial Class addUser
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(29, 200)
+        Me.Label5.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.Black
+        Me.Label5.Location = New System.Drawing.Point(39, 246)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(78, 20)
+        Me.Label5.Size = New System.Drawing.Size(110, 36)
         Me.Label5.TabIndex = 72
         Me.Label5.Text = "Birthdate:"
         '
@@ -476,10 +491,12 @@ Partial Class addUser
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(126, 263)
+        Me.Label4.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.Black
+        Me.Label4.Location = New System.Drawing.Point(39, 324)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(67, 20)
+        Me.Label4.Size = New System.Drawing.Size(93, 36)
         Me.Label4.TabIndex = 71
         Me.Label4.Text = "Gender:"
         '
@@ -487,11 +504,12 @@ Partial Class addUser
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(29, 263)
+        Me.Label3.Location = New System.Drawing.Point(39, 324)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(67, 20)
+        Me.Label3.Size = New System.Drawing.Size(93, 36)
         Me.Label3.TabIndex = 69
         Me.Label3.Text = "Gender:"
         '
@@ -508,19 +526,19 @@ Partial Class addUser
         Me.tb_lname.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_lname.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_lname.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.tb_lname.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_lname.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_lname.ForeColor = System.Drawing.Color.Black
         Me.tb_lname.HoverState.BorderColor = System.Drawing.Color.Black
         Me.tb_lname.HoverState.FillColor = System.Drawing.Color.Silver
         Me.tb_lname.HoverState.ForeColor = System.Drawing.Color.Black
-        Me.tb_lname.Location = New System.Drawing.Point(34, 159)
-        Me.tb_lname.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.tb_lname.Location = New System.Drawing.Point(45, 196)
+        Me.tb_lname.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.tb_lname.Name = "tb_lname"
         Me.tb_lname.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.tb_lname.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.tb_lname.PlaceholderText = "Ex: Gamelo"
         Me.tb_lname.SelectedText = ""
-        Me.tb_lname.Size = New System.Drawing.Size(246, 25)
+        Me.tb_lname.Size = New System.Drawing.Size(328, 31)
         Me.tb_lname.TabIndex = 68
         '
         'tb_fname
@@ -536,30 +554,31 @@ Partial Class addUser
         Me.tb_fname.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_fname.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.tb_fname.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.tb_fname.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_fname.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_fname.ForeColor = System.Drawing.Color.Black
         Me.tb_fname.HoverState.BorderColor = System.Drawing.Color.Black
         Me.tb_fname.HoverState.FillColor = System.Drawing.Color.Silver
         Me.tb_fname.HoverState.ForeColor = System.Drawing.Color.Black
-        Me.tb_fname.Location = New System.Drawing.Point(34, 103)
-        Me.tb_fname.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.tb_fname.Location = New System.Drawing.Point(45, 127)
+        Me.tb_fname.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.tb_fname.Name = "tb_fname"
         Me.tb_fname.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.tb_fname.PlaceholderForeColor = System.Drawing.Color.Gray
         Me.tb_fname.PlaceholderText = "Ex: Frankie "
         Me.tb_fname.SelectedText = ""
-        Me.tb_fname.Size = New System.Drawing.Size(246, 25)
+        Me.tb_fname.Size = New System.Drawing.Size(328, 31)
         Me.tb_fname.TabIndex = 67
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(29, 131)
+        Me.Label2.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Black
+        Me.Label2.Location = New System.Drawing.Point(39, 161)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(90, 20)
+        Me.Label2.Size = New System.Drawing.Size(125, 36)
         Me.Label2.TabIndex = 66
         Me.Label2.Text = "Last Name:"
         '
@@ -567,11 +586,12 @@ Partial Class addUser
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(29, 78)
+        Me.Label1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
+        Me.Label1.Location = New System.Drawing.Point(39, 96)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(90, 20)
+        Me.Label1.Size = New System.Drawing.Size(124, 36)
         Me.Label1.TabIndex = 65
         Me.Label1.Text = "First Name:"
         '
@@ -584,24 +604,26 @@ Partial Class addUser
         Me.cb_userType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cb_userType.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.cb_userType.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.cb_userType.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cb_userType.Font = New System.Drawing.Font("Poppins", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cb_userType.ForeColor = System.Drawing.Color.Black
         Me.cb_userType.ItemHeight = 30
         Me.cb_userType.Items.AddRange(New Object() {"Cashier", "Manager", "Admin"})
-        Me.cb_userType.Location = New System.Drawing.Point(553, 376)
+        Me.cb_userType.Location = New System.Drawing.Point(737, 463)
+        Me.cb_userType.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cb_userType.Name = "cb_userType"
-        Me.cb_userType.Size = New System.Drawing.Size(149, 36)
+        Me.cb_userType.Size = New System.Drawing.Size(197, 36)
         Me.cb_userType.TabIndex = 95
         '
         'Label15
         '
         Me.Label15.AutoSize = True
         Me.Label15.BackColor = System.Drawing.Color.Transparent
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.ForeColor = System.Drawing.Color.White
-        Me.Label15.Location = New System.Drawing.Point(548, 344)
+        Me.Label15.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.ForeColor = System.Drawing.Color.Black
+        Me.Label15.Location = New System.Drawing.Point(731, 423)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(85, 20)
+        Me.Label15.Size = New System.Drawing.Size(115, 36)
         Me.Label15.TabIndex = 94
         Me.Label15.Text = "User Type:"
         '
@@ -630,9 +652,10 @@ Partial Class addUser
         Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
         Me.Guna2Button1.Image = Global.SalesnInventory.My.Resources.Resources.icons8_close_38
-        Me.Guna2Button1.Location = New System.Drawing.Point(865, 0)
+        Me.Guna2Button1.Location = New System.Drawing.Point(1153, 0)
+        Me.Guna2Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(30, 33)
+        Me.Guna2Button1.Size = New System.Drawing.Size(40, 41)
         Me.Guna2Button1.TabIndex = 96
         '
         'Guna2Button2
@@ -646,17 +669,18 @@ Partial Class addUser
         Me.Guna2Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button2.ForeColor = System.Drawing.Color.White
         Me.Guna2Button2.Image = Global.SalesnInventory.My.Resources.Resources.icons8_close_40
-        Me.Guna2Button2.Location = New System.Drawing.Point(765, 0)
+        Me.Guna2Button2.Location = New System.Drawing.Point(1020, 0)
+        Me.Guna2Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.Size = New System.Drawing.Size(49, 39)
+        Me.Guna2Button2.Size = New System.Drawing.Size(65, 48)
         Me.Guna2Button2.TabIndex = 98
         '
         'addUser
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.SalesnInventory.My.Resources.Resources.gold
-        Me.ClientSize = New System.Drawing.Size(816, 489)
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(1088, 602)
         Me.Controls.Add(Me.Guna2Button2)
         Me.Controls.Add(Me.Guna2Button1)
         Me.Controls.Add(Me.cb_userType)
@@ -690,6 +714,7 @@ Partial Class addUser
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "addUser"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Add User"

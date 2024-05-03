@@ -55,23 +55,24 @@ Partial Class updateProduct
         Me.prodDesc.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.prodDesc.ForeColor = System.Drawing.Color.Black
         Me.prodDesc.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.prodDesc.Location = New System.Drawing.Point(268, 88)
-        Me.prodDesc.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.prodDesc.Location = New System.Drawing.Point(357, 108)
+        Me.prodDesc.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.prodDesc.Multiline = True
         Me.prodDesc.Name = "prodDesc"
         Me.prodDesc.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.prodDesc.PlaceholderText = ""
         Me.prodDesc.SelectedText = ""
-        Me.prodDesc.Size = New System.Drawing.Size(216, 191)
+        Me.prodDesc.Size = New System.Drawing.Size(288, 235)
         Me.prodDesc.TabIndex = 19
         '
         'Guna2HtmlLabel4
         '
         Me.Guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel4.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel4.Location = New System.Drawing.Point(268, 62)
+        Me.Guna2HtmlLabel4.Location = New System.Drawing.Point(357, 76)
+        Me.Guna2HtmlLabel4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
-        Me.Guna2HtmlLabel4.Size = New System.Drawing.Size(162, 30)
+        Me.Guna2HtmlLabel4.Size = New System.Drawing.Size(202, 38)
         Me.Guna2HtmlLabel4.TabIndex = 18
         Me.Guna2HtmlLabel4.Text = "Product Description:"
         '
@@ -90,22 +91,23 @@ Partial Class updateProduct
         Me.prodPrice.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.prodPrice.ForeColor = System.Drawing.Color.Black
         Me.prodPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.prodPrice.Location = New System.Drawing.Point(26, 245)
-        Me.prodPrice.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.prodPrice.Location = New System.Drawing.Point(35, 302)
+        Me.prodPrice.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.prodPrice.Name = "prodPrice"
         Me.prodPrice.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.prodPrice.PlaceholderText = ""
         Me.prodPrice.SelectedText = ""
-        Me.prodPrice.Size = New System.Drawing.Size(216, 34)
+        Me.prodPrice.Size = New System.Drawing.Size(288, 42)
         Me.prodPrice.TabIndex = 17
         '
         'Guna2HtmlLabel3
         '
         Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(26, 219)
+        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(35, 270)
+        Me.Guna2HtmlLabel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(111, 30)
+        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(138, 38)
         Me.Guna2HtmlLabel3.TabIndex = 16
         Me.Guna2HtmlLabel3.Text = "Product Price:"
         '
@@ -124,22 +126,23 @@ Partial Class updateProduct
         Me.prodName.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.prodName.ForeColor = System.Drawing.Color.Black
         Me.prodName.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.prodName.Location = New System.Drawing.Point(26, 164)
-        Me.prodName.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.prodName.Location = New System.Drawing.Point(35, 202)
+        Me.prodName.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.prodName.Name = "prodName"
         Me.prodName.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.prodName.PlaceholderText = ""
         Me.prodName.SelectedText = ""
-        Me.prodName.Size = New System.Drawing.Size(216, 34)
+        Me.prodName.Size = New System.Drawing.Size(288, 42)
         Me.prodName.TabIndex = 15
         '
         'Guna2HtmlLabel2
         '
         Me.Guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(26, 138)
+        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(35, 170)
+        Me.Guna2HtmlLabel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(120, 30)
+        Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(151, 38)
         Me.Guna2HtmlLabel2.TabIndex = 14
         Me.Guna2HtmlLabel2.Text = "Product Name:"
         '
@@ -159,22 +162,23 @@ Partial Class updateProduct
         Me.prodCode.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.prodCode.ForeColor = System.Drawing.Color.Black
         Me.prodCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.prodCode.Location = New System.Drawing.Point(26, 88)
-        Me.prodCode.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.prodCode.Location = New System.Drawing.Point(35, 108)
+        Me.prodCode.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.prodCode.Name = "prodCode"
         Me.prodCode.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.prodCode.PlaceholderText = ""
         Me.prodCode.SelectedText = ""
-        Me.prodCode.Size = New System.Drawing.Size(216, 34)
+        Me.prodCode.Size = New System.Drawing.Size(288, 42)
         Me.prodCode.TabIndex = 13
         '
         'Guna2HtmlLabel1
         '
         Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(26, 62)
+        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(35, 76)
+        Me.Guna2HtmlLabel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(115, 30)
+        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(144, 38)
         Me.Guna2HtmlLabel1.TabIndex = 12
         Me.Guna2HtmlLabel1.Text = "Product Code:"
         '
@@ -182,7 +186,7 @@ Partial Class updateProduct
         '
         Me.Guna2Button2.Animated = True
         Me.Guna2Button2.AutoRoundedCorners = True
-        Me.Guna2Button2.BorderRadius = 23
+        Me.Guna2Button2.BorderRadius = 28
         Me.Guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -192,9 +196,10 @@ Partial Class updateProduct
         Me.Guna2Button2.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button2.ForeColor = System.Drawing.Color.Black
         Me.Guna2Button2.Image = Global.SalesnInventory.My.Resources.Resources.icons8_cancel_40
-        Me.Guna2Button2.Location = New System.Drawing.Point(78, 309)
+        Me.Guna2Button2.Location = New System.Drawing.Point(104, 380)
+        Me.Guna2Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.Size = New System.Drawing.Size(164, 48)
+        Me.Guna2Button2.Size = New System.Drawing.Size(219, 59)
         Me.Guna2Button2.TabIndex = 11
         Me.Guna2Button2.Text = "Cancel"
         '
@@ -218,9 +223,10 @@ Partial Class updateProduct
         Me.GunaElipsePanel1.Controls.Add(Me.Guna2HtmlLabel5)
         Me.GunaElipsePanel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.GunaElipsePanel1.Location = New System.Drawing.Point(0, 0)
+        Me.GunaElipsePanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GunaElipsePanel1.Name = "GunaElipsePanel1"
         Me.GunaElipsePanel1.Radius = 1
-        Me.GunaElipsePanel1.Size = New System.Drawing.Size(510, 36)
+        Me.GunaElipsePanel1.Size = New System.Drawing.Size(680, 44)
         Me.GunaElipsePanel1.TabIndex = 20
         '
         'Guna2HtmlLabel5
@@ -228,9 +234,10 @@ Partial Class updateProduct
         Me.Guna2HtmlLabel5.BackColor = System.Drawing.Color.MidnightBlue
         Me.Guna2HtmlLabel5.Font = New System.Drawing.Font("Poppins Medium", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel5.ForeColor = System.Drawing.Color.White
-        Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(4, 4)
+        Me.Guna2HtmlLabel5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
-        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(166, 36)
+        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(205, 44)
         Me.Guna2HtmlLabel5.TabIndex = 14
         Me.Guna2HtmlLabel5.Text = "Update Product"
         '
@@ -238,7 +245,7 @@ Partial Class updateProduct
         '
         Me.Guna2Button1.Animated = True
         Me.Guna2Button1.AutoRoundedCorners = True
-        Me.Guna2Button1.BorderRadius = 23
+        Me.Guna2Button1.BorderRadius = 28
         Me.Guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -248,17 +255,18 @@ Partial Class updateProduct
         Me.Guna2Button1.Font = New System.Drawing.Font("Poppins", 12.0!)
         Me.Guna2Button1.ForeColor = System.Drawing.Color.Black
         Me.Guna2Button1.Image = Global.SalesnInventory.My.Resources.Resources.icons8_update_40__2_
-        Me.Guna2Button1.Location = New System.Drawing.Point(268, 309)
+        Me.Guna2Button1.Location = New System.Drawing.Point(357, 380)
+        Me.Guna2Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(164, 48)
+        Me.Guna2Button1.Size = New System.Drawing.Size(219, 59)
         Me.Guna2Button1.TabIndex = 10
         Me.Guna2Button1.Text = "Update"
         '
         'updateProduct
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(510, 392)
+        Me.ClientSize = New System.Drawing.Size(680, 482)
         Me.Controls.Add(Me.GunaElipsePanel1)
         Me.Controls.Add(Me.prodDesc)
         Me.Controls.Add(Me.Guna2HtmlLabel4)
@@ -271,6 +279,7 @@ Partial Class updateProduct
         Me.Controls.Add(Me.Guna2Button2)
         Me.Controls.Add(Me.Guna2Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "updateProduct"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Update Product"
