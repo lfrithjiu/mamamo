@@ -40,6 +40,7 @@ Partial Class Form1
         Me.Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         Me.Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -359,4 +360,5 @@ Partial Class Form1
     Friend WithEvents Guna2BorderlessForm1 As Guna.UI2.WinForms.Guna2BorderlessForm
     Friend WithEvents GunaPanel1 As Guna.UI.WinForms.GunaPanel
     Friend WithEvents Panel5 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents SaveFileDialog1 As SaveFileDialog
 End Class

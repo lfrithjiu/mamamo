@@ -1,6 +1,4 @@
-﻿Imports System.Runtime.InteropServices
-
-Public Class lendMethod
+﻿Public Class lendMethod
     Dim price As Double = 0
     Private Sub lendMethod_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.CenterToParent()

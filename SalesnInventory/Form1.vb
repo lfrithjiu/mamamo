@@ -74,15 +74,21 @@
     Private Sub GunaButton5_Click(sender As Object, e As EventArgs) Handles Button7.Click
         Dim con As New SqlClient.SqlConnection
         con.ConnectionString = connection.getConnectionString()
-        con.Open()
-        Dim path As String = "C:\Users\ricop\OneDrive\Desktop\SalesnInventory\Back-up\sales_and_inventory.bak"
-        Dim query As String = "BACKUP DATABASE sales_and_inventory TO Disk='" & path & "'"
 
-        Dim command As SqlClient.SqlCommand
-        command = New SqlClient.SqlCommand(query, con)
-        command.ExecuteNonQuery()
+        SaveFileDialog1.FileName = "sales_and_inventory.bak"
+        If SaveFileDialog1.ShowDialog = ShowDialog.OK Then
+            Dim lFolder As String = SaveFileDialog1.FileName
+            Dim stmnt As String = "BACKUP DATABASE sales_and_inventory TO Disk='" & lFolder & "'"
+            Dim command As New SqlClient.SqlCommand(stmnt, con)
+            con.Open()
+            command.ExecuteNonQuery()
+            con.Close()
 
-        MessageBox.Show("Successfully made Back-up")
+            MessageBox.Show("Successfully made Back-up")
+        Else
+            MessageBox.Show("Error")
+        End If
+
     End Sub
 
 

@@ -1,8 +1,4 @@
-﻿Imports System.Data.SqlClient
-Imports System.Runtime.InteropServices
-Imports System.Windows.Forms.VisualStyles.VisualStyleElement
-
-Public Class Inventory
+﻿Public Class Inventory
     Dim con1 As SqlClient.SqlConnection
     Dim cmd2 As SqlClient.SqlCommand
     Dim da3 As SqlClient.SqlDataAdapter
@@ -408,11 +404,11 @@ Public Class Inventory
     End Sub
 
     Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
-        ' productReportViewer.ShowDialog()
+        productReportViewer.ShowDialog()
     End Sub
 
     Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
-        ' stockReportViewer.ShowDialog()
+        stockReportViewer.ShowDialog()
     End Sub
 
     Private Sub stockSearch_TextChanged(sender As Object, e As EventArgs)

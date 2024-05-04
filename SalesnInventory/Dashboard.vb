@@ -1,6 +1,4 @@
-﻿Imports System.Runtime.InteropServices
-
-Public Class Dashboard
+﻿Public Class Dashboard
     Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         loadAllData()
     End Sub

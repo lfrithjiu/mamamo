@@ -1,6 +1,4 @@
 ﻿Imports System.Data.SqlClient
-Imports System.Security.Cryptography
-Imports TheArtOfDevHtmlRenderer
 
 Public Class addStocks
 

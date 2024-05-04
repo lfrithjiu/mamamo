@@ -356,3 +356,17 @@ C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInve
 C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\obj\Debug\SalesnInventory.exe
 C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\obj\Debug\SalesnInventory.xml
 C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\obj\Debug\SalesnInventory.pdb
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\obj\Debug\SalesnInventory.productReportViewer.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\obj\Debug\SalesnInventory.stockReportViewer.resources
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\obj\Debug\RdlCompile.cache
+C:\Users\aldwi\OneDrive\Documents\QCU\3rd Year\2nd Sem\SIA\SIS\mamamo\SalesnInventory\obj\Debug\RdlCompile.compiled
